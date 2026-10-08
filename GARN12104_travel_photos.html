@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GARN12104 Travel Photos - a collection of travel photos, places, journeys and unforgettable memories.">
+<meta name="keywords" content="GARN12104, GARN12104 Travel Photos, travel photos, travel memories, journeys">
+<meta name="author" content="GARN12104">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/">
+<title>GARN12104 Travel Photos</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f7f8;color:#18242d}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(8,18,26,.72);backdrop-filter:blur(12px);padding:15px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{color:#fff;font-size:21px;font-weight:800;letter-spacing:1px}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{min-height:92vh;background:linear-gradient(90deg,rgba(0,0,0,.68),rgba(0,0,0,.15)),url('shimla-rainy-view.jpg') center/cover;display:flex;align-items:center;padding:110px 7% 70px;color:#fff}
+.hero-content{max-width:720px}.kicker{text-transform:uppercase;letter-spacing:4px;font-size:13px;margin-bottom:16px}
+h1{font-size:clamp(48px,8vw,90px);line-height:.94;margin-bottom:22px}
+.hero p{font-size:19px;max-width:610px;margin-bottom:30px}
+.btn{display:inline-block;background:#fff;color:#17232b;text-decoration:none;padding:13px 22px;border-radius:999px;font-weight:700}
+section{padding:75px 7%}.title{font-size:40px;margin-bottom:10px}.sub{color:#687781;margin-bottom:35px}
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.intro img{width:100%;border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.14)}
+.intro p{font-size:17px;color:#52616c}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.card img{width:100%;height:460px;object-fit:cover;display:block}
+.card-body{padding:20px}.card-body h3{margin-bottom:6px}.card-body p{color:#697782}
+.story{background:#17242d;color:#fff}.story .sub{color:#c8d1d6}.story p{max-width:900px;font-size:18px}
+footer{background:#0b1319;color:#b8c2c8;text-align:center;padding:30px 7%}
+@media(max-width:750px){
+ nav{padding:13px 5%}.logo{font-size:17px}nav a{margin-left:10px;font-size:12px}
+ .intro,.gallery{grid-template-columns:1fr}
+ section{padding:55px 5%}.card img{height:380px}
+}
+
+
+
+.photo-uploader{
+  margin-top:35px;
+  padding:28px;
+  background:#fff;
+  border:1px dashed #b7c4ca;
+  border-radius:22px;
+  text-align:center;
+}
+.photo-uploader h3{font-size:24px;margin-bottom:8px}
+.photo-uploader p{color:#687781;margin-bottom:14px}
+.folder-example{
+  display:inline-block;
+  margin:5px 0 14px;
+  padding:12px 18px;
+  border-radius:12px;
+  background:#17242d;
+  color:#fff;
+  font-family:monospace;
+}
+.small-note{font-size:13px}
+
+.photo-uploader input[type="file"]{display:none}
+.upload-btn{display:inline-block;background:#17242d;color:#fff;padding:13px 22px;border-radius:999px;font-weight:700;cursor:pointer;margin:8px 4px}
+.clear-btn{display:inline-block;background:#fff;color:#17242d;border:1px solid #b7c4ca;padding:12px 20px;border-radius:999px;font-weight:700;cursor:pointer;margin:8px 4px}
+.upload-status{margin-top:10px;font-size:14px;color:#687781}
+.user-photo .remove-photo{display:block;width:calc(100% - 40px);margin:0 20px 20px;padding:9px;border:0;border-radius:10px;background:#eef2f4;color:#17242d;font-weight:700;cursor:pointer}
+@media(max-width:750px){.upload-btn,.clear-btn{width:100%;margin:6px 0}}
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "GARN12104 Travel Photos",
+  "alternateName": "GARN12104",
+  "description": "GARN12104 Travel Photos - travel photos, journeys and memories."
+}
+</script>
+</head>
+<body>
+<nav>
+  <div class="logo">GARN12104 TRAVEL PHOTOS</div>
+  <div><a href="#journey">Journey</a><a href="#gallery">Photos</a><a href="#story">Story</a></div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="kicker">GARN12104 • Travel Photos</div>
+    <h1>GARN12104<br>Travel Photos</h1>
+    <p>A collection of my favourite travel moments, places and unforgettable views.</p>
+    <a class="btn" href="#gallery">Explore Photos ↓</a>
+  </div>
+</header>
+
+<section id="journey">
+  <div class="intro">
+    <div>
+      <div class="title">My Travel Journey</div>
+      <div class="sub">Memories from my journeys</div>
+      <p>Welcome to my travel photos. This page captures the atmosphere of a rainy mountain town and the dramatic Himalayan landscape beyond the city.</p>
+    </div>
+    <img src="himachal-mountains.jpg" alt="Snow-covered Himalayan mountain landscape">
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="title">Travel Gallery</div>
+  <div class="sub">Photos from the journey</div>
+  <div class="gallery" id="galleryGrid">
+    <article class="card">
+      <img src="shimla-rainy-view.jpg" alt="Rainy mountain-town view in Shimla">
+      <div class="card-body"><h3>Rainy Shimla</h3><p>Misty hills, hillside buildings and a rainy mountain atmosphere.</p></div>
+    </article>
+    <article class="card">
+      <img src="himachal-mountains.jpg" alt="Snowy mountain landscape">
+      <div class="card-body"><h3>Into the Himalayas</h3><p>A striking mountain road surrounded by snow-covered peaks.</p></div>
+    </article>
+    <article class="card">
+      <img src="photos/your-photo.jpg" alt="My travel photo">
+      <div class="card-body"><h3>My Travel Photo</h3><p>Replace this filename with your own photo.</p></div>
+    </article>
+  </div>
+
+  <div class="photo-uploader">
+    <h3>📷 Add Your Photos</h3>
+    <p>Select photos from your phone or computer. They will appear in the gallery automatically.</p>
+    <label class="upload-btn" for="photoInput">＋ Add Photos</label>
+    <input id="photoInput" type="file" accept="image/*" multiple>
+    <button class="clear-btn" type="button" id="clearPhotos">Clear Added Photos</button>
+    <div class="upload-status" id="uploadStatus">No added photos yet.</div>
+    <p class="small-note">Added photos are saved in this browser, so they remain after refreshing the page.</p>
+  </div>
+</section>
+
+<section id="story" class="story">
+  <div class="title">Travel Story</div>
+  <div class="sub">Memories from the mountains</div>
+  <p>The journey moved from misty hillside streets to spectacular high-altitude scenery. Rain, cool mountain air, winding roads and snowy peaks made the trip feel like a true Himalayan adventure.</p>
+</section>
+
+<footer>© 2026 Travel Photos • Travel Memories<br><strong>Created by Gilbert daniel887</strong></footer>
+
+
+<script>
+(function () {
+  const input = document.getElementById('photoInput');
+  const grid = document.getElementById('galleryGrid');
+  const status = document.getElementById('uploadStatus');
+  const clearBtn = document.getElementById('clearPhotos');
+  const STORAGE_KEY = 'travelPhotosGilbertDaniel887';
+
+  let photos = [];
+
+  function loadPhotos() {
+    try {
+      photos = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    } catch (e) {
+      photos = [];
+    }
+    renderPhotos();
+  }
+
+  function savePhotos() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(photos));
+      return true;
+    } catch (e) {
+      status.textContent = 'Storage is full. Try adding fewer or smaller photos.';
+      return false;
+    }
+  }
+
+  function renderPhotos() {
+    grid.querySelectorAll('.user-photo').forEach(el => el.remove());
+
+    photos.forEach((photo, index) => {
+      const card = document.createElement('article');
+      card.className = 'card user-photo';
+
+      const img = document.createElement('img');
+      img.src = photo.data;
+      img.alt = photo.name || 'My travel photo';
+      img.loading = 'lazy';
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+
+      const title = document.createElement('h3');
+      title.textContent = photo.name || 'My Travel Photo';
+
+      const desc = document.createElement('p');
+      desc.textContent = 'Added from my photo gallery.';
+
+      const remove = document.createElement('button');
+      remove.className = 'remove-photo';
+      remove.type = 'button';
+      remove.textContent = 'Remove Photo';
+      remove.addEventListener('click', function () {
+        photos.splice(index, 1);
+        savePhotos();
+        renderPhotos();
+      });
+
+      body.appendChild(title);
+      body.appendChild(desc);
+      card.appendChild(img);
+      card.appendChild(body);
+      card.appendChild(remove);
+      grid.appendChild(card);
+    });
+
+    status.textContent = photos.length
+      ? photos.length + ' photo' + (photos.length === 1 ? '' : 's') + ' added and saved.'
+      : 'No added photos yet.';
+  }
+
+  function addFile(file) {
+    return new Promise((resolve) => {
+      if (!file.type.startsWith('image/')) {
+        resolve(null);
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        resolve({
+          name: file.name.replace(/\.[^/.]+$/, ''),
+          data: e.target.result
+        });
+      };
+      reader.onerror = function () {
+        resolve(null);
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  input.addEventListener('change', async function () {
+    const files = Array.from(input.files || []);
+    if (!files.length) return;
+
+    status.textContent = 'Adding photos…';
+
+    const added = await Promise.all(files.map(addFile));
+    photos.push(...added.filter(Boolean));
+
+    if (!savePhotos()) return;
+    renderPhotos();
+
+    input.value = '';
+  });
+
+  clearBtn.addEventListener('click', function () {
+    if (!photos.length) return;
+    if (confirm('Remove all photos you added to this website?')) {
+      photos = [];
+      localStorage.removeItem(STORAGE_KEY);
+      renderPhotos();
+    }
+  });
+
+  loadPhotos();
+})();
+</script>
+
+</body>
+</html>
